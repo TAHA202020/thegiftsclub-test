@@ -1,7 +1,9 @@
+import { useState } from 'react';
 import './App.css';
 import DetailsOptions from './DetailsOptions';
 import Options from './Options';
 function App() {
+  const [prices, setPrices] = useState({standard:169,premium:199,option:1});
   return (<div className='devis'>
   <div className='title-container'>
     <div className='title'>
@@ -16,8 +18,8 @@ function App() {
       d'abonnement mensuel , trimsetriel , annuel et biennal
     </p>
   </div>
-  <Options/>
-  <DetailsOptions/> 
+  <Options  setprices={setPrices} option={prices.option}/>
+  <DetailsOptions prices={prices}/> 
   </div>
   );
 }

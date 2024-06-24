@@ -4,12 +4,12 @@ import arrow from './images/arrow.png'
 import add from './images/add.png'
 import entreprise from "./images/entreprise.png"
 import etoile from "./images/etoile.png"
-function DetailsOptions() {
+function DetailsOptions({prices}) {
   return (<div className='details-container'>
     <div className='detail'>
       <div className='detail-title'>
         <h3 style={{marginBottom:'20px'}}>STANDARD</h3>
-        <h3>169 €</h3>
+        <h3>{prices.standard} €</h3>
       </div>
       <div className='details'>
         <div className='check'><img src={check}/><p>Accès aux jeux en version non personnalisés</p></div>
@@ -29,8 +29,8 @@ function DetailsOptions() {
     <div className='premium detail'>
       <img src={etoile} className='favorite'/>
     <div className='detail-title'>
-        <h1 style={{marginBottom:'20px'}}>Premium</h1>
-        <h1>199 €</h1>
+        <h1 style={{marginBottom:'20px',color:'#517AFB'}}>Premium</h1>
+        <h1 style={{color:'#517AFB',fontSize:'50px'}}>{prices.premium} €</h1>
       </div>
       <div className='details'>
         <div className='check'><img src={check}/><p>3 actions disponibles</p></div>
