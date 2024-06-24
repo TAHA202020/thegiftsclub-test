@@ -55,6 +55,50 @@ p
   margin-top: 30px;
 }
 
+.options
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+.options label
+{
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  width: 85%;
+  margin: 20%;
+  margin-bottom: 50px;
+  border-bottom: 7px solid transparent;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.options div
+{
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.options div span{
+  position: absolute;
+  bottom: 0px;
+  font-size: 12px;
+  color: rgb(153, 153, 153);
+}
+
+
+input[type="radio"]:checked ~ label
+{
+  border-bottom: 7px solid red;
+}
+
+
 
 input[type="radio"]
 {
