@@ -1,4 +1,5 @@
 import './App.css';
+import DetailsOptions from './DetailsOptions';
 import Options from './Options';
 function App() {
   return (<div className='devis'>
@@ -8,7 +9,7 @@ function App() {
     <div className='circle-container'>
       <div className='xs'><p className='x'>x</p><p className='x'>x</p><p className='x'>x</p></div>
       <span className='circle'></span>
-        <h1>NOS OFFRES</h1>
+        <h1 style={{color:'#517AFB'}}>NOS OFFRES</h1>
     </div>
     </div>
     <p>Trouver le plan parfait pour votre entreprise parmi nos différentes options<br />
@@ -16,6 +17,7 @@ function App() {
     </p>
   </div>
   <Options/>
+  <DetailsOptions/> 
   </div>
   );
 }
