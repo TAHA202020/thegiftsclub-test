@@ -9,7 +9,7 @@ function DetailsOptions({prices}) {
     <div className='detail'>
       <div className='detail-title'>
         <h2 style={{marginBottom:'20px'}}>STANDARD</h2>
-        <h2>{prices.standard} €</h2>
+        <h2 style={{fontSize:'40px'}}>{prices.standard} €</h2>
       </div>
       <div className='details'>
         <div className='check'><img src={check}/><p>Accès aux jeux en version non personnalisés</p></div>
