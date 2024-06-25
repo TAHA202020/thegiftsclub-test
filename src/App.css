@@ -82,6 +82,7 @@ p
   border-bottom: 7px solid transparent;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
+  opacity: 0.5;
 }
 .options div
 {
@@ -102,6 +103,7 @@ p
 input[type="radio"]:checked ~ label
 {
   border-bottom: 7px solid #517AFB;
+  opacity: 1;
 }
 
 
@@ -193,6 +195,8 @@ p{
   box-shadow: #5300a3 5px 3px 0px 0px;
   font-weight: bolder;
   font-size: medium;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .premium
@@ -213,4 +217,17 @@ p{
   top: 0px;
   transform: translateY(-30%);
   width: 50px;
+}
+.price
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  gap: 10px;
+}
+.price p
+{
+  font-size: medium;
+  opacity: 0.5;
 }

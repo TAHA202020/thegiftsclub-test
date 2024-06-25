@@ -9,7 +9,7 @@ function DetailsOptions({prices}) {
     <div className='detail'>
       <div className='detail-title'>
         <h2 style={{marginBottom:'20px'}}>STANDARD</h2>
-        <h2 style={{fontSize:'40px'}}>{prices.standard} €</h2>
+        <div className='price'><h2 style={{fontSize:'30px'}}>{prices.standard}€</h2> <p>/mois</p></div>
       </div>
       <div className='details'>
         <div className='check'><img src={check}/><p>Accès aux jeux en version non personnalisés</p></div>
@@ -30,7 +30,7 @@ function DetailsOptions({prices}) {
       <img src={etoile} className='favorite'/>
     <div className='detail-title'>
         <h1 style={{marginBottom:'20px',color:'#517AFB'}}>Premium</h1>
-        <h1 style={{color:'#517AFB',fontSize:'50px'}}>{prices.premium} €</h1>
+        <div className='price'><h2 style={{color:'#517AFB',fontSize:'40px'}}>{prices.premium}€</h2> <p>/mois</p></div>
       </div>
       <div className='details'>
         <div className='check'><img src={check}/><p>3 actions disponibles</p></div>
