@@ -56,6 +56,7 @@ p
 .devis
 {
   margin-top: 30px;
+  margin-bottom: 100px;
 }
 
 .options
@@ -122,15 +123,16 @@ input[type="radio"]
   display: flex;
   flex-direction: row;
   align-items: stretch;
-  margin-left: 50px;
-  margin-right: 50px;
-  gap: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
+  gap: 3%;
 }
 
 .detail
 {
+  padding: 20px;
   position: relative;
-  border: 2px solid rgb(214, 214, 214);
+  border: 1px solid rgb(214, 214, 214);
   border-radius:5px;
   flex: 1;
 }
@@ -138,7 +140,7 @@ input[type="radio"]
 {
   margin-top: 50px;
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 .details
 {
@@ -155,7 +157,6 @@ input[type="radio"]
   flex-direction: row;
   justify-content: start ;
   gap: 30px;
-  padding-left: 30px;
   align-items: center;
 }
 img
@@ -179,7 +180,7 @@ p{
 {
   position: absolute;
   bottom: 10%;
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
