@@ -68,7 +68,7 @@ p
   align-items: center;
   padding-left: 10vw;
   padding-right: 10vw;
-  margin-bottom: 200px;
+  margin-bottom: 50px;
 }
 .options label
 {
@@ -180,7 +180,7 @@ p{
 {
   position: absolute;
   bottom: 10%;
-  width: 90%;
+  width:90%;
   display: flex;
   justify-content: center;
   align-items: center;
