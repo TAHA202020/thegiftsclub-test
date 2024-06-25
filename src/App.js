@@ -15,7 +15,7 @@ function App() {
     </div>
     </div>
     <p>Trouver le plan parfait pour votre entreprise parmi nos différentes options<br />
-      d'abonnement mensuel , trimsetriel , annuel et biennal
+      d'abonnement mensuel,trimsetriel,semestriel,annuel et biennal.
     </p>
   </div>
   <Options  setprices={setPrices} option={prices.option}/>

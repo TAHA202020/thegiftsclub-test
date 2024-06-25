@@ -8,7 +8,7 @@ function DetailsOptions({prices}) {
   return (<div className='details-container'>
     <div className='detail'>
       <div className='detail-title'>
-        <h2 style={{marginBottom:'10px'}}>STANDARD</h2>
+        <h2 style={{marginBottom:'10px'}}>Standard</h2>
         <div className='price'><h2 style={{fontSize:'30px'}}>{prices.standard}€</h2> <p>/mois</p></div>
       </div>
       <div className='details'>
