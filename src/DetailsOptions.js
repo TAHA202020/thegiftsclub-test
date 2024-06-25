@@ -8,8 +8,8 @@ function DetailsOptions({prices}) {
   return (<div className='details-container'>
     <div className='detail'>
       <div className='detail-title'>
-        <h3 style={{marginBottom:'20px'}}>STANDARD</h3>
-        <h3>{prices.standard} €</h3>
+        <h2 style={{marginBottom:'20px'}}>STANDARD</h2>
+        <h2>{prices.standard} €</h2>
       </div>
       <div className='details'>
         <div className='check'><img src={check}/><p>Accès aux jeux en version non personnalisés</p></div>
@@ -51,7 +51,7 @@ function DetailsOptions({prices}) {
     </div>
     <div className='detail'>
     <div className='detail-title'>
-        <h3 style={{marginBottom:'20px'}}>Sur Devis</h3>
+        <h2 style={{marginBottom:'20px'}}>Sur Devis</h2>
         <img src={entreprise} style={{width:'50px'}}/>
       </div>
       <div className='details'>

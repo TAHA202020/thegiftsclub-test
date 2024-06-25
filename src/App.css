@@ -78,7 +78,6 @@ p
   user-select: none;
   text-align: center;
   width: 85%;
-  margin: 20%;
   margin-bottom: 50px;
   border-bottom: 7px solid transparent;
   border-bottom-left-radius: 3px;
@@ -211,7 +210,7 @@ p{
 {
   position: absolute;
   right: 10px;
-  top: 0;
-  transform: translateY(-50%);
+  top: 0px;
+  transform: translateY(-30%);
   width: 50px;
 }
